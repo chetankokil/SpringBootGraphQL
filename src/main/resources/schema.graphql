@@ -1,0 +1,31 @@
+type Query {
+    categories: [Category!]!
+    contacts: Contact!
+}
+
+type Results {
+    gender: String
+    name: Name
+    email: String
+}
+
+type Id {
+    name: String!
+    value: String!
+}
+
+type Category {
+    name: String!
+    age: Int!
+    id: ID!
+}
+
+type Name {
+    title: String!
+    first: String!
+    last: String!
+}
+
+type Contact {
+    results: [Results]!
+}

@@ -1,0 +1,6 @@
+server:
+  port: 9091
+
+graphql:
+  servlet:
+    exception-handlers-enabled: true
